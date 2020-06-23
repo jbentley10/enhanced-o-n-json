@@ -1,0 +1,76 @@
+{
+  "messages": {
+    "green": "Safe distancing",
+    "yellow": "Approaching unsafe distancing",
+    "red": "Unsafe distancing"
+  },
+  "overall": {
+    "status": 0,
+    "numVisitors": 63,
+    "maxOccupancy": 120
+  },
+  "departments": [
+    {
+      "id": 1,
+      "name": "Checkout",
+      "status": 0,
+      "numVisitors": 3,
+      "maxOccupancy": 8,
+      "subsections": [
+        {
+          "id": "1",
+          "name": "#1",
+          "status": 2,
+          "numVisitors": 12,
+          "maxOccupancy": 10
+        },
+        {
+          "id": "2",
+          "name": "#2",
+          "status": 0,
+          "numVisitors": 2,
+          "maxOccupancy": 10
+        },
+        {
+          "id": "3",
+          "name": "#3",
+          "status": 0,
+          "numVisitors": 4,
+          "maxOccupancy": 10
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Produce",
+      "status": 1,
+      "numVisitors": 39,
+      "maxOccupancy": 68,
+      "subsections": []
+    },
+    {
+      "id": 3,
+      "name": "Bakery",
+      "status": 0,
+      "numVisitors": 29,
+      "maxOccupancy": 8,
+      "subsections": []
+    },
+    {
+      "id": 4,
+      "name": "Aisle",
+      "status": 1,
+      "numVisitors": 29,
+      "maxOccupancy": 8,
+      "subsections": []
+    },
+    {
+      "id": 5,
+      "name": "Loading dock",
+      "status": 2,
+      "numVisitors": 29,
+      "maxOccupancy": 8,
+      "subsections": []
+    }
+  ]
+}
