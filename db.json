@@ -2,74 +2,93 @@
   "messages": {
     "green": "Safe distancing",
     "yellow": "Approaching unsafe distancing",
-    "red": "Unsafe distancing"
+    "red": "Unsafe distancing",
+    "gray": "Connecting..."
   },
   "overall": {
-    "status": 0,
-    "numVisitors": 63,
-    "maxOccupancy": 120
+    "numVisitors": 32,
+    "maxOccupancy": 120,
+    "safeThreshold": 0,
+    "approachingUnsafeThreshold": 0.50,
+    "unsafeThreshold": 0.75
   },
   "departments": [
     {
       "id": 1,
       "name": "Checkout",
-      "status": 0,
-      "numVisitors": 3,
-      "maxOccupancy": 8,
+      "numVisitors": 11,
+      "maxOccupancy": 10,
+      "safeThreshold": 0,
+      "approachingUnsafeThreshold": 0.50,
+      "unsafeThreshold": 0.75,
       "subsections": [
         {
           "id": "1",
           "name": "#1",
-          "status": 2,
-          "numVisitors": 12,
-          "maxOccupancy": 10
+          "numVisitors": 3,
+          "maxOccupancy": 5,
+          "safeThreshold": 0,
+          "approachingUnsafeThreshold": 0.50,
+          "unsafeThreshold": 0.75
         },
         {
           "id": "2",
           "name": "#2",
-          "status": 0,
-          "numVisitors": 2,
-          "maxOccupancy": 10
+          "numVisitors": 1,
+          "maxOccupancy": 5,
+          "safeThreshold": 0,
+          "approachingUnsafeThreshold": 0.50,
+          "unsafeThreshold": 0.75
         },
         {
           "id": "3",
           "name": "#3",
-          "status": 0,
-          "numVisitors": 4,
-          "maxOccupancy": 10
+          "numVisitors": 2,
+          "maxOccupancy": 5,
+          "safeThreshold": 0,
+          "approachingUnsafeThreshold": 0.50,
+          "unsafeThreshold": 0.75
         }
       ]
     },
     {
       "id": 2,
       "name": "Produce",
-      "status": 1,
-      "numVisitors": 39,
-      "maxOccupancy": 68,
+      "numVisitors": 9,
+      "maxOccupancy": 10,
+      "safeThreshold": 0,
+      "approachingUnsafeThreshold": 0.50,
+      "unsafeThreshold": 0.75,
       "subsections": []
     },
     {
       "id": 3,
       "name": "Bakery",
-      "status": 0,
-      "numVisitors": 29,
-      "maxOccupancy": 8,
+      "numVisitors": 6,
+      "maxOccupancy": 10,
+      "safeThreshold": 0,
+      "approachingUnsafeThreshold":0.50,
+      "unsafeThreshold": 0.75,
       "subsections": []
     },
     {
       "id": 4,
       "name": "Aisle",
-      "status": 1,
-      "numVisitors": 29,
-      "maxOccupancy": 8,
+      "numVisitors": 2,
+      "maxOccupancy": 10,
+      "safeThreshold": 0,
+      "approachingUnsafeThreshold": 0.50,
+      "unsafeThreshold": 0.75,
       "subsections": []
     },
     {
       "id": 5,
       "name": "Loading dock",
-      "status": 2,
-      "numVisitors": 29,
-      "maxOccupancy": 8,
+      "numVisitors": 1,
+      "maxOccupancy": 10,
+      "safeThreshold": 0,
+      "approachingUnsafeThreshold": 0.50,
+      "unsafeThreshold": 0.75,
       "subsections": []
     }
   ]
