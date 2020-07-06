@@ -1,7 +1,7 @@
 {
   "messages": {
     "green": "Safe distancing",
-    "yellow": "Approaching unsafe distancing",
+    "yellow": "Approaching unsafe distancing lorem ipsum solor dut amet edipscing elit",
     "red": "Unsafe distancing",
     "gray": "Connecting..."
   },
@@ -16,38 +16,44 @@
     {
       "id": 1,
       "name": "Checkout",
-      "numVisitors": 11,
-      "maxOccupancy": 10,
+      "numVisitors": 6,
+      "maxOccupancy": 15,
       "safeThreshold": 0,
       "approachingUnsafeThreshold": 0.50,
       "unsafeThreshold": 0.75,
-      "subsections": [
+      "sublocations": [
         {
-          "id": "1",
-          "name": "#1",
+          "id": 1,
+          "name": "Checkout #1",
           "numVisitors": 3,
           "maxOccupancy": 5,
           "safeThreshold": 0,
           "approachingUnsafeThreshold": 0.50,
-          "unsafeThreshold": 0.75
+          "unsafeThreshold": 0.75,
+          "videoFeedURL": "10.30.5.101",
+          "videoThumbnailURL": "https://i.imgur.com/cqT1lXZ.png"
         },
         {
-          "id": "2",
-          "name": "#2",
+          "id": 2,
+          "name": "Checkout #2",
           "numVisitors": 1,
           "maxOccupancy": 5,
           "safeThreshold": 0,
           "approachingUnsafeThreshold": 0.50,
-          "unsafeThreshold": 0.75
+          "unsafeThreshold": 0.75,
+          "videoFeedURL": "10.30.5.101",
+          "videoThumbnailURL": "https://i.imgur.com/cqT1lXZ.png"
         },
         {
-          "id": "3",
-          "name": "#3",
+          "id": 3,
+          "name": "Checkout #3",
           "numVisitors": 2,
           "maxOccupancy": 5,
           "safeThreshold": 0,
           "approachingUnsafeThreshold": 0.50,
-          "unsafeThreshold": 0.75
+          "unsafeThreshold": 0.75,
+          "videoFeedURL": "10.30.5.101",
+          "videoThumbnailURL": "https://i.imgur.com/cqT1lXZ.png"
         }
       ]
     },
@@ -59,7 +65,7 @@
       "safeThreshold": 0,
       "approachingUnsafeThreshold": 0.50,
       "unsafeThreshold": 0.75,
-      "subsections": []
+      "sublocations": []
     },
     {
       "id": 3,
@@ -69,7 +75,7 @@
       "safeThreshold": 0,
       "approachingUnsafeThreshold":0.50,
       "unsafeThreshold": 0.75,
-      "subsections": []
+      "sublocations": []
     },
     {
       "id": 4,
@@ -79,7 +85,7 @@
       "safeThreshold": 0,
       "approachingUnsafeThreshold": 0.50,
       "unsafeThreshold": 0.75,
-      "subsections": []
+      "sublocations": []
     },
     {
       "id": 5,
@@ -89,7 +95,7 @@
       "safeThreshold": 0,
       "approachingUnsafeThreshold": 0.50,
       "unsafeThreshold": 0.75,
-      "subsections": []
+      "sublocations": []
     }
   ]
 }
