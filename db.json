@@ -6,7 +6,7 @@
     "gray": "Connecting..."
   },
   "overall": {
-    "numVisitors": 80,
+    "numVisitors": 32,
     "maxOccupancy": 120,
     "safeThreshold": 0,
     "approachingUnsafeThreshold": 0.50,
@@ -15,7 +15,7 @@
   "departments": [
     {
       "id": 1,
-      "name": "Checkout Area",
+      "name": "Checkout",
       "numVisitors": 6,
       "maxOccupancy": 15,
       "safeThreshold": 0,
