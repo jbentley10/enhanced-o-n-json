@@ -1,13 +1,13 @@
 {
   "messages": {
     "green": "Safe distancing",
-    "yellow": "Approaching unsafe distancing lorem ipsum solor dut amet edipscing elit",
+    "yellow": "Approaching unsafe distancing",
     "red": "Unsafe distancing",
     "gray": "Connecting..."
   },
   "overall": {
-    "numVisitors": 32,
-    "maxOccupancy": 120,
+    "numVisitors": 142,
+    "maxOccupancy": 300,
     "safeThreshold": 0,
     "approachingUnsafeThreshold": 0.50,
     "unsafeThreshold": 0.75
@@ -15,18 +15,18 @@
   "departments": [
     {
       "id": 1,
-      "name": "Checkout",
-      "numVisitors": 6,
-      "maxOccupancy": 15,
+      "name": "Main Lobby",
+      "numVisitors": 42,
+      "maxOccupancy": 100,
       "safeThreshold": 0,
       "approachingUnsafeThreshold": 0.50,
       "unsafeThreshold": 0.75,
       "sublocations": [
         {
           "id": 1,
-          "name": "Checkout #1",
-          "numVisitors": 3,
-          "maxOccupancy": 5,
+          "name": "East Entrance",
+          "numVisitors": 2,
+          "maxOccupancy": 20,
           "safeThreshold": 0,
           "approachingUnsafeThreshold": 0.50,
           "unsafeThreshold": 0.75,
@@ -35,9 +35,9 @@
         },
         {
           "id": 2,
-          "name": "Checkout #2",
-          "numVisitors": 1,
-          "maxOccupancy": 5,
+          "name": "West Entrance",
+          "numVisitors": 10,
+          "maxOccupancy": 30,
           "safeThreshold": 0,
           "approachingUnsafeThreshold": 0.50,
           "unsafeThreshold": 0.75,
@@ -46,9 +46,9 @@
         },
         {
           "id": 3,
-          "name": "Checkout #3",
-          "numVisitors": 2,
-          "maxOccupancy": 5,
+          "name": "Central Entrance",
+          "numVisitors": 30,
+          "maxOccupancy": 50,
           "safeThreshold": 0,
           "approachingUnsafeThreshold": 0.50,
           "unsafeThreshold": 0.75,
@@ -59,9 +59,9 @@
     },
     {
       "id": 2,
-      "name": "Produce",
-      "numVisitors": 9,
-      "maxOccupancy": 10,
+      "name": "Breakroom",
+      "numVisitors": 25,
+      "maxOccupancy": 50,
       "safeThreshold": 0,
       "approachingUnsafeThreshold": 0.50,
       "unsafeThreshold": 0.75,
@@ -69,9 +69,9 @@
     },
     {
       "id": 3,
-      "name": "Bakery",
-      "numVisitors": 6,
-      "maxOccupancy": 10,
+      "name": "Conference Room",
+      "numVisitors": 20,
+      "maxOccupancy": 50,
       "safeThreshold": 0,
       "approachingUnsafeThreshold":0.50,
       "unsafeThreshold": 0.75,
@@ -79,9 +79,9 @@
     },
     {
       "id": 4,
-      "name": "Aisle",
-      "numVisitors": 2,
-      "maxOccupancy": 10,
+      "name": "Restrooms",
+      "numVisitors": 15,
+      "maxOccupancy": 25,
       "safeThreshold": 0,
       "approachingUnsafeThreshold": 0.50,
       "unsafeThreshold": 0.75,
@@ -90,8 +90,8 @@
     {
       "id": 5,
       "name": "Loading dock",
-      "numVisitors": 1,
-      "maxOccupancy": 10,
+      "numVisitors": 30,
+      "maxOccupancy": 75,
       "safeThreshold": 0,
       "approachingUnsafeThreshold": 0.50,
       "unsafeThreshold": 0.75,
