@@ -80,7 +80,7 @@
     {
       "id": 4,
       "name": "Restrooms",
-      "numVisitors": 15,
+      "numVisitors": 22,
       "maxOccupancy": 25,
       "safeThreshold": 0,
       "approachingUnsafeThreshold": 0.50,
@@ -90,7 +90,7 @@
     {
       "id": 5,
       "name": "Loading dock",
-      "numVisitors": 30,
+      "numVisitors": 23,
       "maxOccupancy": 75,
       "safeThreshold": 0,
       "approachingUnsafeThreshold": 0.50,
