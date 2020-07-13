@@ -31,7 +31,7 @@
           "approachingUnsafeThreshold": 0.50,
           "unsafeThreshold": 0.75,
           "videoFeedURL": "10.30.5.101",
-          "videoThumbnailURL": "https://i.imgur.com/cqT1lXZ.png"
+          "videoThumbnailURL": "https://imgur.com/a/BILN1Cc"
         },
         {
           "id": 2,
@@ -42,7 +42,7 @@
           "approachingUnsafeThreshold": 0.50,
           "unsafeThreshold": 0.75,
           "videoFeedURL": "10.30.5.101",
-          "videoThumbnailURL": "https://i.imgur.com/cqT1lXZ.png"
+          "videoThumbnailURL": "https://imgur.com/a/BILN1Cc"
         },
         {
           "id": 3,
@@ -53,7 +53,7 @@
           "approachingUnsafeThreshold": 0.50,
           "unsafeThreshold": 0.75,
           "videoFeedURL": "10.30.5.101",
-          "videoThumbnailURL": "https://i.imgur.com/cqT1lXZ.png"
+          "videoThumbnailURL": "https://imgur.com/a/BILN1Cc"
         }
       ]
     },
