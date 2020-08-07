@@ -15,7 +15,7 @@
   "departments": [
     {
       "id": 1,
-      "name": "Main Lobby",
+      "name": "Main lobby",
       "numVisitors": 42,
       "maxOccupancy": 100,
       "safeThreshold": 0,
@@ -24,7 +24,7 @@
       "sublocations": [
         {
           "id": 1,
-          "name": "East Entrance",
+          "name": "East entrance",
           "numVisitors": 2,
           "maxOccupancy": 20,
           "safeThreshold": 0,
@@ -35,7 +35,7 @@
         },
         {
           "id": 2,
-          "name": "West Entrance",
+          "name": "West entrance",
           "numVisitors": 10,
           "maxOccupancy": 30,
           "safeThreshold": 0,
@@ -46,7 +46,7 @@
         },
         {
           "id": 3,
-          "name": "Central Entrance",
+          "name": "Central entrance",
           "numVisitors": 30,
           "maxOccupancy": 50,
           "safeThreshold": 0,
@@ -69,7 +69,7 @@
     },
     {
       "id": 3,
-      "name": "Conference Room",
+      "name": "Conference room",
       "numVisitors": 10,
       "maxOccupancy": 50,
       "safeThreshold": 0,
